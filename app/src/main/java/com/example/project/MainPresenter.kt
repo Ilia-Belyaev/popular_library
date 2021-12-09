@@ -7,23 +7,23 @@ class MainPresenter(
 ) {
 
     //Архитектурная ошибка. В качестве практического задания - исправить
-    fun counterClick0() {
+    fun counterClickFirst() {
 
         val nextValue = model.next(0)
-        view.setButtonText0(nextValue.toString())
+        view.setButtonTextFirst(nextValue.toString())
     }
 
-    fun counterClick1() {
+    fun counterClickSecond() {
 
         val nextValue1 = model.next(1)
-        view.setButtonText1(nextValue1.toString())
+        view.setButtonTextSecond(nextValue1.toString())
 
     }
 
-    fun counterClick2() {
+    fun counterClickThird() {
 
         val nextValue2 = model.next(2)
-        view.setButtonText2(nextValue2.toString())
+        view.setButtonTextThird(nextValue2.toString())
 
     }
 }
